@@ -98,6 +98,14 @@ that CSV so it matches the spec and stays stdlib-only.
    control with id `"5"` exists — surfaces as an orphan-assessment
    exception an analyst can resolve by hand. The note in the exception
    says a match to `CTRL-005` is the likely intended target.
+   This choice is not free: it means `CTRL-005`'s reconciled record
+   shows `Not Started` at 0% completion (from its one matched row,
+   2026-08-20), when the orphaned row — if it is in fact the same
+   control, one day later, from the same assessor (A. Thomas) — would
+   make it `In Progress` at 30%. I judged that silently accepting that
+   swap was riskier than surfacing it, but anyone relying on the
+   0%-vs-30% figure for `CTRL-005` should know this exception is
+   sitting behind it.
 
 10. **Row 5: `CTRL-004`'s date is `"Aug 5 2026"`**, a third date
     format (`%b %d %Y`) alongside ISO and `DD/MM/YYYY`. Parsed
@@ -105,7 +113,7 @@ that CSV so it matches the spec and stays stdlib-only.
     once parsed, but it's the kind of format drift that will keep
     happening if assessors paste from different spreadsheet locales.
 
-11. **Row 8 (`CTRL-006`): `assessed_on` is the raw Unix epoch integer
+11. **Row 9 (`CTRL-006`): `assessed_on` is the raw Unix epoch integer
     `1755302400`**, not a date string at all. It decodes to
     **16 Aug 2025** — a full year before every other assessment in the
     batch, which itself is logically suspicious for a control that
