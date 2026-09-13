@@ -16,3 +16,9 @@ Note: I used an AI assistant (Claude) throughout, as the assignment
 invited — for scaffolding the React app quickly and for a first pass at
 spotting anomalies in the raw data, which I then verified by hand
 against the actual files before writing them into `DATA_ISSUES.md`.
+
+Note on commits: I drafted each part fully before committing it, so
+the four commits landed close together in real time rather than
+spread across the whole ~5.75 hours — the commit boundaries reflect
+the four parts of the assignment, not elapsed work time between
+them.
