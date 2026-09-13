@@ -1,0 +1,80 @@
+[
+  {
+    "type": "control",
+    "id": "CTRL-003",
+    "field": "id",
+    "reason": "duplicate control id 'CTRL-003' (multiple distinct controls share this id)"
+  },
+  {
+    "type": "control",
+    "id": "CTRL-008",
+    "field": "domain",
+    "reason": "control is missing a domain and could not be grouped for the domain-level summary"
+  },
+  {
+    "type": "control",
+    "id": "CTRL-010",
+    "field": "id",
+    "reason": "control id had surrounding whitespace ('CTRL-010 '); trimmed to 'CTRL-010'"
+  },
+  {
+    "type": "control",
+    "id": "CTRL-012",
+    "field": "parent_id",
+    "reason": "control lists itself as its own parent ('CTRL-012'); ignored"
+  },
+  {
+    "type": "control",
+    "id": "CTRL-014",
+    "field": "parent_id",
+    "reason": "parent_id 'CTRL-099' does not match any known control id"
+  },
+  {
+    "type": "assessment",
+    "control_id": "CTRL-002",
+    "row": 4,
+    "field": "status/completion",
+    "reason": "status is 'Complete' but completion is 0.85 (<1.0); logically inconsistent, kept as reported"
+  },
+  {
+    "type": "assessment",
+    "control_id": "CTRL-007",
+    "row": 10,
+    "field": "status/completion",
+    "reason": "status is 'Complete' but completion is 0.2 (<1.0); logically inconsistent, kept as reported"
+  },
+  {
+    "type": "assessment",
+    "control_id": "CTRL-009",
+    "row": 12,
+    "field": "status/completion/assessed_on",
+    "reason": "non-numeric completion value: 'N/A'"
+  },
+  {
+    "type": "assessment",
+    "control_id": "CTRL-011",
+    "row": 14,
+    "field": "assessed_on",
+    "reason": "assessed_on date 2030-01-01 is in the future relative to today; kept but flagged for follow-up"
+  },
+  {
+    "type": "control",
+    "id": "CTRL-003",
+    "field": "assessment_match",
+    "reason": "duplicate id 'CTRL-003' in domain 'Change Management' has no assessment reliably assignable to it (the one CTRL-003 assessment on file was assigned to the Access Management control instead, based on evidence content)"
+  },
+  {
+    "type": "assessment",
+    "control_id": "5",
+    "row": 8,
+    "field": "control_id",
+    "reason": "no control with id '5' exists in controls.json (orphan assessment)"
+  },
+  {
+    "type": "assessment",
+    "control_id": "CTRL-021",
+    "row": 18,
+    "field": "control_id",
+    "reason": "no control with id 'CTRL-021' exists in controls.json (orphan assessment)"
+  }
+]

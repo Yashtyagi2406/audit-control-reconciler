@@ -1,0 +1,19 @@
+control_id,assessed_on,status,completion,evidence_note,assessor
+CTRL-001,2026-08-15,Complete,1,"Approval workflow screenshots collected, tickets sampled",R. Nair
+CTRL-002,15/08/2026,In-Progress,0.6,Access review 60% certified,M. Farsi
+CTRL-002,2026-08-28,complete,0.85,"Q3 certification finalized, sign-offs attached",M. Farsi
+CTRL-003,2026-08-18,COMPLETE,1,Admin group membership extract reviewed,R. Nair
+CTRL-004,Aug 5 2026,in progress,0.4,CAB minutes for July pending,A. Thomas
+CTRL-005,2026-08-20,Not started,0,,A. Thomas
+5,2026-08-21,In Progress,0.3,Environment diagram drafted,A. Thomas
+CTRL-006,1755302400,Complete,1,Backup job logs for 30 days verified,K. Menon
+CTRL-007,2026-08-22,Complete,0.2,,K. Menon
+CTRL-008,2026-08-19,In-Progress,0.5,Severity matrix v2 in review,S. Iyer
+CTRL-009,2026-08-19,Not Started,N/A,,S. Iyer
+CTRL-010,2026-08-25,In Progress,0.7,Encryption inventory 70% complete,R. Nair
+CTRL-011,2030-01-01,Complete,1,Classification labels applied to all repositories,S. Iyer
+CTRL-012,2026-08-26,In Progress,0.5,Rotation schedule drafted,R. Nair
+CTRL-013,2026-08-27,Complete,1,"Vendor assessments done for Alpha, Beta and Gamma Corp",A. Thomas
+CTRL-014,2026-08-27,not started,0,,A. Thomas
+CTRL-021,2026-08-29,In Progress,0.5,Awaiting control owner confirmation,S. Iyer
+CTRL-009,2026-09-02,In Progress,0.25,Initial incident sample pulled,S. Iyer
